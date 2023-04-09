@@ -31,10 +31,10 @@ const Login = () => {
         <h2 className="log-ti">Log In</h2>
         <form onSubmit={formik.handleSubmit}>
           <label htmlFor="email">Email</label>
-          <input type="email" value={formik.values.email} onChange={formik.handleChange} id="email" name="email"  />
+          <input type="email" value={formik.values.email} onChange={formik.handleChange} id="email" name="email" placeholder="user1@gmail.com"  />
 
           <label htmlFor="password">Password</label>
-          <input type="password" value={formik.values.password} onChange={formik.handleChange} id="password" name="password"  />
+          <input type="password" value={formik.values.password} onChange={formik.handleChange} id="password" name="password"placeholder="admin1234"  />
 
           <button type="submit">Log In</button>
         </form>
