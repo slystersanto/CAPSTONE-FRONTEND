@@ -383,6 +383,21 @@ li a:hover {
   justify-content: center;
   text-align: center;
 }
+.dat-title{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  text-align: center;
+}
+.par-title{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  text-align: center;
+}
+.bir-title{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  text-align: center;
+}
 .pagination {
   display: flex;
   list-style: none;

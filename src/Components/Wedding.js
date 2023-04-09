@@ -32,7 +32,7 @@ const Wedding = () => {
 
   return (
     <>
-    
+    <h1 className='wed-title'>#The Wedding Color Suggestions</h1>
     <div className='wedding-page'>
       {wedding.map((item) => (
         <CardWedding

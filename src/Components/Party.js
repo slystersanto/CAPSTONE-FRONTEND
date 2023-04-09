@@ -26,7 +26,7 @@ const Party = () => {
 
   return (
     <>
-    
+    <h1 className='par-title'>#The Party Color Suggestions</h1>
     <div className='wedding-page'>
       {party.map((item) => (
         <CardWedding

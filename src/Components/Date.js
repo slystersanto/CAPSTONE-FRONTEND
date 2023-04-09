@@ -30,7 +30,7 @@ useEffect(()=>{
 
   return (
   <>
-  
+  <h1 className='dat-title'>#The Dating Color Suggestions</h1>
   <div className='wedding-page'>
       {date.map((item) => (
         <CardWedding

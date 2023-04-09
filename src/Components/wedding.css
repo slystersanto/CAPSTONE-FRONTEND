@@ -37,3 +37,8 @@
   .card-description-des description {
     flex: 1;
   }
+  .wed-title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    text-align: center;
+  }

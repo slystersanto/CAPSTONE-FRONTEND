@@ -29,7 +29,7 @@ const Birthday = () => {
 
   return (
     <>
-    
+    <h1 className='bir-title'>#The BirthDay Color Suggestions</h1>
     <div className='wedding-page'>
       {birthday.map((item) => (
         <CardWedding
