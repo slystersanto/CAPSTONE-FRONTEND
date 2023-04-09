@@ -37,6 +37,7 @@ const Login = () => {
             onChange={formik.handleChange}
             type="email"
             id="email"
+            placeholder="user1@gmail.com"
             required
           />
 
@@ -47,6 +48,7 @@ const Login = () => {
             onChange={formik.handleChange}
             type="password"
             id="password"
+            placeholder="admin1234"
             required
           />
 
