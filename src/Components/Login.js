@@ -38,7 +38,7 @@ const Login = () => {
             type="email"
             id="email"
             placeholder="user1@gmail.com"
-            required
+           
           />
 
           <label for="password">Password</label>
@@ -49,7 +49,8 @@ const Login = () => {
             type="password"
             id="password"
             placeholder="admin1234"
-            required
+           
+            
           />
 
           <input type="submit" value="Login"/>
