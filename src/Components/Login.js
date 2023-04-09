@@ -26,37 +26,26 @@ const Login = () => {
   });
   return (
     <>
-      <div class="login-container">
-        <div className="login-form-container">
-        <h1 className="login-title">Login</h1>
+       <div className="login-container">
+      <div className="login-form-container">
+        <h2 className="log-ti">Log In</h2>
         <form onSubmit={formik.handleSubmit}>
-          <label for="email">Email</label>
-          <input
-            name="email"
-            value={formik.values.email}
-            onChange={formik.handleChange}
-            type="email"
-            id="email"
-            placeholder="user1@gmail.com"
-           
-          />
+          <label htmlFor="email">Email</label>
+          <input type="email" value={formik.values.email} onChange={formik.handleChange} id="email" name="email"  />
 
-          <label for="password">Password</label>
-          <input
-            name="password"
-            value={formik.values.password}
-            onChange={formik.handleChange}
-            type="password"
-            id="password"
-            placeholder="admin1234"
-           
-            
-          />
+          <label htmlFor="password">Password</label>
+          <input type="password" value={formik.values.password} onChange={formik.handleChange} id="password" name="password"  />
 
-          <input type="submit" value="Login"/>
+          <button type="submit">Log In</button>
         </form>
+        <div className="login-options">
+          <a href="#">Forgot Password?</a>
+          <span>
+            Don't have an account? <a href="#">Sign Up</a>
+          </span>
+        </div>
       </div>
-      </div>
+    </div>
     </>
   );
 };
