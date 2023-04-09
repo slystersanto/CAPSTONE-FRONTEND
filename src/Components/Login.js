@@ -14,7 +14,7 @@ const Login = () => {
     },
     onSubmit:async (values)=>{
         try {
-        const login= await axios.post("http://localhost:9000/login",values);
+        const login= await axios.post("https://capstone-backend-node.onrender.com/login",values);
         window.localStorage.setItem("token",login.data.token)
         navigate("/featured-color")
         } catch (error) {

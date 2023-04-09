@@ -7,7 +7,7 @@ const Party = () => {
     const[party,setParty]=useState([])
     async function getParty(){
         try {
-            const Parties=await axios.get("http://localhost:9000/featured/outfits/party",{
+            const Parties=await axios.get("https://capstone-backend-node.onrender.com/featured/outfits/party",{
                 headers:{
                   Authorization:`${window.localStorage.getItem("token")}`
                 }

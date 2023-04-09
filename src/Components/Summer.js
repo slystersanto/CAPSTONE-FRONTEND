@@ -7,7 +7,7 @@ const Summer = () => {
 
       async function getSummerCode(){
         try {
-            const Summercolor= await axios.get("http://localhost:9000/featured/seasonal-colors/summer",{
+            const Summercolor= await axios.get("https://capstone-backend-node.onrender.com/featured/seasonal-colors/summer",{
               headers:{
                 Authorization:`${window.localStorage.getItem("token")}`
               }

@@ -10,7 +10,7 @@ function ColorPalette() {
 
   useEffect(() => {
     async function fetchData() {
-      const result = await axios.get('http://localhost:9000/featured/colors/palettes',{
+      const result = await axios.get('https://capstone-backend-node.onrender.com/featured/colors/palettes',{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }

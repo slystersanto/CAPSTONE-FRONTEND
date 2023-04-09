@@ -11,7 +11,7 @@ const Date = () => {
     const[date,setDate]=useState([]);
     async function getDate(){
         try {
-            const Dates=await axios.get("http://localhost:9000/featured/outfits/date",{
+            const Dates=await axios.get("https://capstone-backend-node.onrender.com/featured/outfits/date",{
                 headers:{
                   Authorization:`${window.localStorage.getItem("token")}`
                 }

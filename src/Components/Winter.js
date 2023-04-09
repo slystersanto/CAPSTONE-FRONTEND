@@ -8,7 +8,7 @@ const Winter = () => {
 
     async function getWinter(){
        try {
-        const winter=await axios.get("http://localhost:9000/featured/seasonal-colors/winter",{
+        const winter=await axios.get("https://capstone-backend-node.onrender.com/featured/seasonal-colors/winter",{
           headers:{
             Authorization:`${window.localStorage.getItem("token")}`
           }
