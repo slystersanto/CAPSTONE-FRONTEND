@@ -9,7 +9,7 @@ const Autumn = () => {
 
     async function getAutumn(){
         try {
-            const getAutmn= await axios.get("http://localhost:9000/featured/seasonal-colors/spring",{
+            const getAutmn= await axios.get("https://capstone-backend-node.onrender.com/spring",{
               headers:{
                 Authorization:`${window.localStorage.getItem("token")}`
               }

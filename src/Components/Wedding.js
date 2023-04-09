@@ -12,7 +12,7 @@ const Wedding = () => {
 
     async function getWedding(){
        try {
-        const wedding=await axios.get("http://localhost:9000/featured/outfits/wedding",{
+        const wedding=await axios.get("https://capstone-backend-node.onrender.com/featured/outfits/wedding",{
           headers:{
             Authorization:`${window.localStorage.getItem("token")}`
           }

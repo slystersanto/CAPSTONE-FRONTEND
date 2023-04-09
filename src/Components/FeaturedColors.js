@@ -13,7 +13,7 @@ const FeaturedColors = () => {
 
   async function getFeaturedColor() {
     try {
-      const Featurecolor = await axios.get("http://localhost:9000/featured/colors",{
+      const Featurecolor = await axios.get("https://capstone-backend-node.onrender.com/featured/colors",{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }
