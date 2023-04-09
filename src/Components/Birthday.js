@@ -11,7 +11,7 @@ const Birthday = () => {
 
     async function getBirthday(){
         try {
-            const Birth = await axios.get("https://comforting-semifreddo-525042.netlify.app/featured/outfits/birthday",{
+            const Birth = await axios.get("https://capstone-backend-node.onrender.com/featured/outfits/birthday",{
                 headers:{
                   Authorization:`${window.localStorage.getItem("token")}`
                 }

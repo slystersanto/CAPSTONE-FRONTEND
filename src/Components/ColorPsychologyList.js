@@ -8,7 +8,7 @@ const ColorPsychologyList = () => {
 
   async function getPsychoColor() {
     try {
-      const response = await axios.get("https://comforting-semifreddo-525042.netlify.app/featured/colorpsychology",{
+      const response = await axios.get("https://capstone-backend-node.onrender.com/featured/colorpsychology",{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }
