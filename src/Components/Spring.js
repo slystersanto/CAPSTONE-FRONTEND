@@ -10,7 +10,7 @@ const Spring = () => {
     async function getSpring(){
 
         try {
-            const spring=await axios.get("https://capstone-backend-node.onrender.com/featured/seasonal-colors/autumn",{
+            const spring=await axios.get("https://comforting-semifreddo-525042.netlify.app/featured/seasonal-colors/autumn",{
               headers:{
                 Authorization:`${window.localStorage.getItem("token")}`
               }

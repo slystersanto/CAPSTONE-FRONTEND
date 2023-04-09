@@ -9,7 +9,7 @@ const Autumn = () => {
 
     async function getAutumn(){
         try {
-            const getAutmn= await axios.get("https://capstone-backend-node.onrender.com/spring",{
+            const getAutmn= await axios.get("https://comforting-semifreddo-525042.netlify.app/spring",{
               headers:{
                 Authorization:`${window.localStorage.getItem("token")}`
               }

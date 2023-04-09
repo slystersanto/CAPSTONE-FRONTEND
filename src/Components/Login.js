@@ -14,7 +14,7 @@ const Login = () => {
     },
     onSubmit:async (values)=>{
         try {
-        const login= await axios.post("https://capstone-backend-node.onrender.com/login",values);
+        const login= await axios.post("https://comforting-semifreddo-525042.netlify.app/login",values);
         window.localStorage.setItem("token",login.data.token)
         navigate("/featured-color")
         } catch (error) {

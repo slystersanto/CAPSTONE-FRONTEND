@@ -10,7 +10,7 @@ function ColorPalette() {
 
   useEffect(() => {
     async function fetchData() {
-      const result = await axios.get('https://capstone-backend-node.onrender.com/featured/colors/palettes',{
+      const result = await axios.get('https://comforting-semifreddo-525042.netlify.app/featured/colors/palettes',{
         headers:{
           Authorization:`${window.localStorage.getItem("token")}`
         }

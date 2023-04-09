@@ -8,7 +8,7 @@ const Winter = () => {
 
     async function getWinter(){
        try {
-        const winter=await axios.get("https://capstone-backend-node.onrender.com/featured/seasonal-colors/winter",{
+        const winter=await axios.get("https://comforting-semifreddo-525042.netlify.app/featured/seasonal-colors/winter",{
           headers:{
             Authorization:`${window.localStorage.getItem("token")}`
           }
