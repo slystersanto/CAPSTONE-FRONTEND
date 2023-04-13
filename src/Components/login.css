@@ -49,6 +49,7 @@ button[type="submit"] {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .login-options {
